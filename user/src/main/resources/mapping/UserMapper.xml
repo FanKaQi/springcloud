@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fkq.user.mapper.UserMapper">
+
+    <select id="selectByPrimaryKey" resultType="com.fkq.user.entity.User" parameterType="java.lang.String">
+     select *  from user where uid = #{uid}
+    </select>
+
+    <select id="selectAllCount" resultType="java.lang.Integer">
+     select count(1) from user
+   </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+      delete from user where uid = #{uid}
+    </delete>
+    <insert id="insertUser" parameterType="com.fkq.user.entity.User">
+      insert into user value (#{uid},#{name},#{password},#{address},#{age},#{phone},#{createTime},#{updateTime})
+    </insert>
+</mapper>
