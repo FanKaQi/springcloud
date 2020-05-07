@@ -11,7 +11,10 @@
 
     <artifactId>feign</artifactId>
 
-    <description>服务消费者</description>
+    <description>Feign是一个声明式的Http客户端
+        1.Feign 采用的是基于接口的注解
+        2.Feign 整合了ribbon，具有负载均衡的能力
+        3.整合了Hystrix，具有熔断的能力</description>
     <dependencies>
 
 

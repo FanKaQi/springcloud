@@ -25,6 +25,8 @@
         <module>user</module>
         <module>gateway</module>
         <module>ribbon</module>
+        <module>ribbona</module>
+        <module>ribbonc</module>
         <module>feign</module>
         <module>zuul</module>
         <module>hystrix</module>

@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbona/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbonb/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbonc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

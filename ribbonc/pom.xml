@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ribbon</artifactId>
+    <artifactId>ribbonc</artifactId>
 
-    <description>服务之间的负载均衡（结合ribbona和ribbonc）</description>
+    <description>负载均衡</description>
     <dependencies>
 
         <dependency>

@@ -10,8 +10,6 @@
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
-          <root url="file://$MODULE_DIR$/../ribbonb/src/main/java" />
-          <root url="file://$MODULE_DIR$/../ribbonb/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -25,16 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <content url="file://$MODULE_DIR$/../ribbonb/src/main/java">
-      <sourceFolder url="file://$MODULE_DIR$/../ribbonb/src/main/java" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../ribbonb/src/main/resources">
-      <sourceFolder url="file://$MODULE_DIR$/../ribbonb/src/main/resources" type="java-resource" />
-    </content>
-    <content url="file://$MODULE_DIR$/../ribbonb/src/test/java">
-      <sourceFolder url="file://$MODULE_DIR$/../ribbonb/src/test/java" isTestSource="true" />
-    </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="common" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.0.0.RELEASE" level="project" />

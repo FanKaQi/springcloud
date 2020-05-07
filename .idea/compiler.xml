@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user" />
         <module name="zuul" />
+        <module name="ribbon (1)" />
+        <module name="ribbonc" />
         <module name="common" />
+        <module name="ribbona" />
         <module name="eureka" />
         <module name="gateway" />
         <module name="feign" />
         <module name="hystrix" />
         <module name="ribbon" />
         <module name="zuul (1)" />
+        <module name="ribbonb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +29,10 @@
       <module name="gateway" target="1.8" />
       <module name="hystrix" target="1.8" />
       <module name="ribbon" target="1.8" />
+      <module name="ribbon (1)" target="1.8" />
+      <module name="ribbona" target="1.8" />
+      <module name="ribbonb" target="1.8" />
+      <module name="ribbonc" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="user" target="1.8" />
       <module name="zuul" target="1.8" />
@@ -40,6 +48,10 @@
       <module name="gateway" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
       <module name="hystrix" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
       <module name="ribbon" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
+      <module name="ribbon (1)" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
+      <module name="ribbona" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
+      <module name="ribbonb" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
+      <module name="ribbonc" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
       <module name="springcloud" options="" />
       <module name="user" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
       <module name="zuul" options="-parameters -bootclasspath E:/Java/jdk1.8/jre/lib/rt.jar;E:/Java/jdk1.8/jre/lib/jce.jar" />
